@@ -3,10 +3,15 @@
 <head>
 	<title> Learn Enough Javascript </title>
 	<meta charset="utf-8">
-	<script>alert ("Hello, world!"); </script>
+	<script> 
+    const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    let now = new Date();
+    let dayName = daysOfTheWeek[now.getDay()];
+    alert(`Hello, world! Happy ${dayName}.`);
+    </script>
 </head>
 <body>
-	<h1> Hello, world! </h1>
-	<p> This page includes a alert with javascipt </p>
+	
 </body>
 </html>
